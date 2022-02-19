@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    <string name="string1">
+
+    Body Index Mass (BMI) is a measure of body. <br>fat based on height and weight that</br><br>
+        applies to adult men and women. </br> View the BMI tables or use the tool below to<br>
+    Formula: weight (lb) / [height (in)]2 x 703
+      </br><br>
+        Then, calculate BMI by dividing weight in pounds (lb)</br><br>
+    by height in inches </br>(in) squared and multiplying by a conversion factor of 703.
+
+
+</string>
+</resources>

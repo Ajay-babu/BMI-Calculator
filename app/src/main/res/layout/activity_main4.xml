@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bmi1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Name:-"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image1"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pradeep Kanojia"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profeshion:-"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text3"
+        android:layout_below="@+id/text2"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualification:-"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.tech"
+            android:layout_toRightOf="@+id/text5"
+            android:layout_below="@+id/text4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+
+
+</RelativeLayout>

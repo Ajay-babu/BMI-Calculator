@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/changeActivity1"
+    android:title="About App"
+    app:showAsAction="never"/>
+    <item android:id="@+id/changeActivity2"
+        android:title="BMI Chart"
+        app:showAsAction="never"/>
+    <item android:id="@+id/changeActivity3"
+        android:title="About Developers"
+        app:showAsAction="never"/>
+
+</menu>
